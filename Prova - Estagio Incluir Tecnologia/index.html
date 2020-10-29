@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prova - Incluir Tecnologias</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <div id="cabecalho">
+    <img id="logo" src="Logo_Incluir.jpg">
+    </div>
+    <br>
+    <div id="counteudo">
+        <div id="regionsdiv">
+            <label>Região</label>
+            <br>
+            <br>
+            <select id="regions">
+                <option id="regiaoNula">Escolha uma Região</option>
+                <option id="africa" value="africa">Africa</option>
+                <option id="americas" value="americas">Americas</option>
+                <option id="asia" value="asia">Asia</option>
+                <option id="europe" value="europe">Europa</option>
+                <option id="oceania" value="oceania">Oceania</option>
+            </select>
+        </div>
+        <div id="countriesdiv">
+            <label>País</label>
+            <br>
+            <br>
+            <select id="countries"></select>
+        </div>
+        <button id="button3" onclick="Limpar()">Limpar Busca</button>
+        <button id="button5" onclick="Ir()">Tela 2</button>
+    </div>
+    <div id="main-container">
+        <div id="flag-container">
+        </div>
+        <br>
+    </div>
+    </div>
+    <script src="./jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
