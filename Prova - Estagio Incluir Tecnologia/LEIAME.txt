@@ -1,0 +1,6 @@
+OBSERVACOES
+
+
+Utilizei JavaScript e JQuery, que são as tecnologias Web que tenho mais familiaridade.
+Não foi possível a implementação de clicar em uma bandeira e ir para o status do país.
+Para realizar outra busca na mesma página deve-se clicar em limpar busca, para resetar os dados, do contrário, os dados serão adicionados após os já exibidos.
